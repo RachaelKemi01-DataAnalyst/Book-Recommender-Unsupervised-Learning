@@ -1,1 +1,20 @@
-b
+# Book-Recommender-Unsupervised-Learning
+
+Business objective: The aim of this project is to promote customer experience and sales of an online book store by recommending books for each user based on their preferences.
+
+Dataset Description
+The dataset contains 3 files
+1. User.csv
+2. Ratings.csv
+3. Book.csv
+
+Users:
+Contains the users. Note that user IDs (User-ID) have been anonymized and map to integers. Demographic data is provided (Location, Age) if available. Otherwise, these fields contain NULL-values.
+Books:
+Books are identified by their respective ISBN. Invalid ISBNs have already been removed from the dataset. Moreover, some content-based information is given (Book-Title, Book-Author, Year-Of-Publication, Publisher), obtained from Amazon Web Services. Note that in case of several authors, only the first is provided. URLs linking to cover images are also given, appearing in three different flavours (Image-URL-S, Image-URL-M, Image-URL-L), i.e., small, medium, large. These URLs point to the Amazon web site.
+Ratings:
+Contains the book rating information. Ratings (Book-Rating) are either explicit, expressed on a scale from 1-10 (higher values denoting higher appreciation), or implicit, expressed by 0.
+
+Tools Used
+1. Google colab
+2. Modelling: Unsupervised learning through NMF and KMeans.
